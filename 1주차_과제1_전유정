@@ -1,8 +1,0 @@
-S_list = []
-S = input()
-
-for i in range(len(S)) :
-	S_list.append(S[i:])
-
-for S in sorted(S_list):
-	print(S)
