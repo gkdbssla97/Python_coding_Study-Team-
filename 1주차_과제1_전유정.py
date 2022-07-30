@@ -1,6 +1,4 @@
-import sys
-
-S = input(map(str,sys.stdin.readline().strip()))
+S = input()
 array = []
 
 for i in range(len(S)):
