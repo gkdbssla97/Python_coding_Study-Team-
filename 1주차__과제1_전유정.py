@@ -1,9 +1,9 @@
 S = input()
-array = []
+list = []
 
 for i in range(len(S)):
-    array.append(S[i:])
+    list.append(S[i:])
   
-array = sorted(array)
+list = sorted(list)
 
-print("\n".join(array))
+print("\n".join(list))
