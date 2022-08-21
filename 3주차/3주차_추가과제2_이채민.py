@@ -21,7 +21,10 @@ for _ in range(N-1):
     for i in range(N):
         heapq.heappushpop(heap, nums[i])
 
-
+# heappushpop
+# [12 7 9 15 5] => [5, 7, 9, 12, 15]
+# 13 삽입시,
+# [7, 9, 12, 13, 15]
 print(heap[0], flush=False)
 
 
