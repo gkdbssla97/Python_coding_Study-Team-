@@ -21,9 +21,7 @@ def BFS(field, visited, start):
             for i in range(4):
                 nextR = row+dr[i]
                 nextC = col+dc[i]
-                if nextR>=0 and nextR<rows and nextC>=0 and nextC<cols:
-                    if visited[nextR][nextC]:
-                        continue
+                if nextR>=0 and nextR<rows and nextC>=0 and nextC<cols and visited[nextR][nextC]:
                     visited[nextR][nextC] = True
                     if field[nextR][nextC] != -1:
                         temp.append((nextR, nextC))
